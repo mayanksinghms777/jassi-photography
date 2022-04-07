@@ -1,0 +1,205 @@
+*, :after, :before {
+    box-sizing: border-box;
+}
+.max-w-1200 {
+    max-width: 1200px;
+}
+.about-me{
+   display: flex;
+   flex-direction: column;
+   min-height: 100vh;
+}
+.block-container{
+    position: relative;
+}
+.header-background{
+    background-image: url('../images/KE-1016-df2e87d0.jpeg');
+    background-position: 66% 68%;
+    height: 66vh;
+    min-height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.element{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    opacity: .15;
+}
+.header-text{
+    top: 54%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1;
+    width: 100%;
+}
+.aboutme-text{
+    font-family: Spectral,serif;
+    font-size: 4rem;
+    font-style: normal;
+    font-weight: 200;
+    letter-spacing: 0;
+    line-height: 1.15;
+    text-transform: none;
+    color: #fff!important;
+}
+.aboutme-text1{
+    font-family: Spectral,serif;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: .1875rem;
+    line-height: 1.75;
+    text-transform: uppercase;
+    color: #fff!important;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+/* main */
+
+.about-main{
+    overflow: hidden;
+}
+.aboutme-photo-text{
+    margin-top: 40px;
+}
+.aboutme-photo-text1{
+    font-family: Spectral,serif;
+    font-size: .875rem;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 2.29;
+    text-transform: none;
+    color: #3a3a3a;
+    white-space: pre-wrap;
+}
+.aboutme-photo-responsive{
+    z-index: -1;
+    position: relative;
+    display: block;
+    width: 100%;
+    padding: 0;
+    overflow: hidden;
+}
+.aboutme-photo-responsive:before{
+    padding-top: 150%;
+    display: block;
+    content: "";
+}
+.aboutme-img{
+    top: 0%;
+    left: -20%;
+    width: auto!important;
+    height: 100%;
+    position: absolute;
+}
+
+/* testonimials */
+
+.testinomials-h1{
+    font-family: Spectral,serif;
+    font-size: 2.1875rem;
+    font-style: normal;
+    font-weight: 300;
+    letter-spacing: 0;
+    line-height: 1.2;
+    text-transform: none;
+    margin-bottom: 30px;
+}
+
+.testnomials-elements{
+    width: 100%;
+}
+.testnomials-img{
+    max-width: 100%;
+    height: auto;
+    border-style: none;
+}
+.testnomials-elements-h3{
+    font-family: Spectral,serif;
+    font-size: 1.3rem!important;
+    font-style: normal;
+    font-weight: 300;
+    letter-spacing: 0;
+    line-height: 1.27;
+    text-transform: none;
+    margin-top: 40px;
+    margin-bottom: 0;
+}
+.testnomials-elements-label{
+    font-family: Spectral,serif;
+    font-size: .75rem;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: .188rem;
+    line-height: 1.5;
+    text-transform: uppercase;
+    margin-top: 30px;
+    margin-bottom: 0;
+    display: block;
+}
+
+
+/* contact me button */
+
+.contact-me-button{
+    background-color: #2d2d2d;
+    font-family: Spectral,serif;
+    font-size: .75rem;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: .1875rem;
+    line-height: 2;
+    text-transform: uppercase;
+}
+.button{
+    display: inline-block;
+    padding: 14px 30px;
+    border: 0;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* media */
+
+
+@media (min-width: 768px){
+    .aboutme-photo-text{
+        margin-top: 0;
+        padding-left: 30px;
+    }
+    .aboutme-photo{
+        padding-right: 30px;
+    }
+    .testinomials-h1{
+        margin-bottom: 60px;
+    }
+    .testnomials-elements{
+        padding: 15px 30px;
+    }
+}
+@media only screen and (min-width: 900px){
+    .testnomials-elements{
+        padding: 37.5px 50px;
+    }
+    .aboutme-photo{
+        padding-right: 40px;
+    }
+    
+}
+@media only screen and (max-width: 600px){
+    .mobile-padding{
+        padding-left: 0!important;
+        padding-right: 0!important;
+    }
+  }

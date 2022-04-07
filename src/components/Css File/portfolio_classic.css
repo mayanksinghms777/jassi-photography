@@ -1,0 +1,13 @@
+.portfolio-classic{
+    display: flex;
+    flex-direction: column;
+    margin-top: 110px;
+    overflow-x: hidden;
+ }
+
+ .see-more a{
+    color: black;
+ }
+ .see-more a:hover{
+    color: rgb(97, 97, 97);
+ }

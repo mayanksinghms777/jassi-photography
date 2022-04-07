@@ -1,0 +1,53 @@
+.portfolio{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+ }
+.header-portfolio-background{
+    background-image: url('../images/DSC09676-e2d4fbd8.jpeg');
+    background-position: 50% 8%;
+    height: 66vh;
+    min-height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.portfolio-main{
+    overflow: hidden;
+}
+.portfolio-text{
+    font-family: Spectral,serif;
+    font-size: .875rem;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 2.29;
+    text-transform: none;
+    white-space: pre-wrap;
+}
+
+.feature-link-grid {
+    width: 90%;
+}
+
+.feature-image-one{
+    max-width: 100%;
+    vertical-align: middle;
+    border-style: none;
+}
+.feature-text{
+    padding: 20px 30px 40px;
+}
+.portfolio-tag{
+    color: black;
+}
+
+
+
+/* media */
+
+@media (max-width: 768px){
+    .feature-link-grid {
+        width: 100%;
+    }
+}

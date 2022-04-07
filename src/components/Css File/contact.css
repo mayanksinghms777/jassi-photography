@@ -1,0 +1,20 @@
+.contact{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+ }
+
+ .header-background-contact{
+    background-image: url('../images/008203-937a3570.jpeg');
+    background-position: 66% 68%;
+    height: 66vh;
+    min-height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.contact-form{
+    background: 0 0;
+    padding: 30px;
+    border: 1px solid #cdcdcd;
+}
