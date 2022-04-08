@@ -78,7 +78,7 @@ function Footer() {
                                         <div className="footer-icons">
                                             <div className="footer-social-links d-flex">
                                             <a href="" target="_blank" className="footer-fb"><i class="fab fa-facebook-f"></i></a>
-                                            <a href="https://www.instagram.com/jaspreetorjassi/" target="_blank" className="footer-insta"><i class="fab fa-instagram"></i></a>
+                                            <a href="https://www.instagram.com/jaspreetsinghworks/" target="_blank" className="footer-insta"><i class="fab fa-instagram"></i></a>
                                             </div>
                                         </div>
                                     </div>

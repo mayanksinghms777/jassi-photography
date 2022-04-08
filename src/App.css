@@ -86,6 +86,7 @@ a > i:hover{
   align-items: center;
   margin-top: 0.2em;
   text-align: right;
+  padding-left: 0px;
 }
 .nav1 li{
     -moz-osx-font-smoothing: grayscale;
@@ -106,8 +107,8 @@ a > i:hover{
     letter-spacing: 0;
     line-height: 1.1;
     text-transform: none;
-    padding-right: 60px;
-    padding-left: 40px;
+    padding-right: 52px;
+    padding-left: 52px;
     text-align: center;
     display: flex;
     align-items: center;
@@ -169,6 +170,14 @@ a > i:hover{
   background-color: #000;
   opacity: .15;
 }
+.nav-sublink a{
+  color: rgba(255, 255, 255, 0.96);
+}
+.nav-main a:hover{
+  color: rgba(82, 81, 81, 0.96);
+}
+
+
 /* mobile navbar */
 
 
@@ -185,6 +194,9 @@ a > i:hover{
   vertical-align: -0.10em;
   width: 0.6rem;
   color: #020202 !important;
+}
+#subnav li{
+  font-size: 0.9rem;
 }
 .overlay-menu{
   text-align: left;
@@ -232,11 +244,12 @@ a > i:hover{
   left: 0;
   position: absolute;
   overflow: hidden;
-  min-height: 120px;
+  min-height: 80px;
   padding: 0 15px;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  height: fit-content;
 }
 
 .overlay {
@@ -274,7 +287,7 @@ a > i:hover{
 
 .overlay .closebtn {
   position: absolute;
-  top: 20px;
+  top: 10px;
   right: 25px;
   font-size: 40px;
 }
@@ -826,6 +839,19 @@ a > i:hover{
   .footer-instagram-text{
     opacity: 0;
   }
+  .mobile-navbar{
+    min-height: 120px;
+  }
+  }
+  @media (max-width: 768px){
+    .ctext1{
+      font-size: 2.8125rem;
+      line-height: 1.1;
+    }
+    .ctext2{
+      font-size: .77rem;
+      line-height: 1.5;
+    }
   }
   @media (max-width: 1000px){
     .nav-main{

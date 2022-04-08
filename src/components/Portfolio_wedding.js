@@ -16,11 +16,11 @@ function Portfolio_wedding() {
         <Navbar1/>
         <div className="portfolio-wedding">
 
-            <div className="padding-container mt-5">
+            <div className="padding-container mt-lg-5 mt-sm-2">
                 <div className="container-fluid-one">
                     <div className="row justify-content-center">
                         <div className="col-12 col-md-10 h-100 col-lg-8">
-                            <h1 className="heading mb-4">Wedding</h1>
+                            <h1 className="heading mb-lg-4 mb-sm-0">Wedding</h1>
                         </div>
                     </div>
                 </div>

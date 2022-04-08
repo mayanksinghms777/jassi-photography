@@ -28,17 +28,17 @@ function Navbar1() {
     return (
         <>
             <div id="navColor">
-            <div className="nav-main black">
+            <div className="nav-main black padding-container pt-0 pb-0">
                 <ul className="nav1">
                     <li><NavLink exact to="/" >Home</NavLink></li>
                     <li><NavLink to="/about" >About</NavLink></li>
                     <li className='nav-portfoliolink'><NavLink to="/portfolio" >Portfolio</NavLink>
                         <div className='nav-dropdown'>
                         <ul className='nav-sublink'>
-                            <li><NavLink to="/portfolio_classic" className="text-white" >Classic</NavLink></li>
-                            <li><NavLink to="/portfolio_wedding" className="text-white">Wedding</NavLink></li>
-                            <li><NavLink to="/portfolio_escapades" className="text-white" >Escapades</NavLink></li>
-                            <li><NavLink to="/portfolio_travel" className="text-white" >Travel</NavLink></li>
+                            <li><NavLink to="/portfolio_classic">Classic</NavLink></li>
+                            <li><NavLink to="/portfolio_wedding">Wedding</NavLink></li>
+                            <li><NavLink to="/portfolio_escapades">Escapades</NavLink></li>
+                            <li><NavLink to="/portfolio_travel">Travel</NavLink></li>
                         </ul>
                         </div>
                     </li>
@@ -51,7 +51,7 @@ function Navbar1() {
             </div>
             </div>
 
-        <div className="mobile-navbar container-fluid">
+        <div className="mobile-navbar container-fluid padding-container pt-0 pb-0">
             <div className="navbar-brand mobile-black">
                 <h1>JASSI PHOTOGRAPHY</h1>
             </div>
@@ -76,7 +76,7 @@ function Navbar1() {
                 </ul>
                 </div>
             </div>
-            <span className="nav-icon1 mobile-black" onClick={openNav}><span style={{fontSize:'1.1rem', marginRight:'8px', verticalAlign:'-0.1em'}}>MENU</span>&#9776;</span>
+            <span className="nav-icon1 mobile-black" onClick={openNav}><span style={{fontSize:'1.1rem', marginRight:'8px', verticalAlign:'-0.09em'}}>MENU</span>&#9776;</span>
         </div>
 
         </>

@@ -72,9 +72,10 @@ function Contact() {
                                             <label class="my-1 mr-2 mt-4" for="inlineFormCustomSelectPref">HOW DID YOU HEAR ABOUT ME?</label>
                                                 <select class="custom-select my-1 mr-sm-2 ml-4" id="inlineFormCustomSelectPref">
                                                     <option selected>Choose...</option>
-                                                    <option value="1">One</option>
-                                                    <option value="2">Two</option>
-                                                    <option value="3">Three</option>
+                                                    <option value="1">Friend</option>
+                                                    <option value="2">Instagram</option>
+                                                    <option value="3">Website</option>
+                                                    <option value="3">Other</option>
                                                 </select>
                                             <div class="form-group mt-4">
                                                 <label for="exampleFormControlTextarea1">MESSAGE</label>
