@@ -48,7 +48,7 @@ a > i:hover{
   color: rgb(0, 0, 0);
 }
 .white a{
-  color: rgb(255, 255, 255);
+  color: rgb(246, 246, 246);
 }
 .black1{
   color: rgb(0, 0, 0);
@@ -171,10 +171,10 @@ a > i:hover{
   opacity: .15;
 }
 .nav-sublink a{
-  color: rgba(255, 255, 255, 0.96);
+  color: rgba(201, 201, 201, 0.96);
 }
 .nav-main a:hover{
-  color: rgba(82, 81, 81, 0.96);
+  color: rgb(255, 255, 255)
 }
 
 
