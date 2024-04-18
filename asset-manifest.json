@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/jassi-photography/static/css/main.d68a77cf.css",
-    "main.js": "/jassi-photography/static/js/main.f715b8fa.js",
+    "main.js": "/jassi-photography/static/js/main.d4662276.js",
     "static/js/453.d798f18e.chunk.js": "/jassi-photography/static/js/453.d798f18e.chunk.js",
     "static/media/Screenshot 2022-01-07 at 5.11.33 PM.png": "/jassi-photography/static/media/Screenshot 2022-01-07 at 5.11.33 PM.86f1941b112c6444f0f3.png",
     "static/media/DSC09676-e2d4fbd8.jpeg": "/jassi-photography/static/media/DSC09676-e2d4fbd8.4f484b3a06d9676012a1.jpeg",
@@ -19,11 +19,11 @@
     "static/media/0008548-2759c646.jpeg": "/jassi-photography/static/media/0008548-2759c646.7f3e4dac3a307f54dd13.jpeg",
     "index.html": "/jassi-photography/index.html",
     "main.d68a77cf.css.map": "/jassi-photography/static/css/main.d68a77cf.css.map",
-    "main.f715b8fa.js.map": "/jassi-photography/static/js/main.f715b8fa.js.map",
+    "main.d4662276.js.map": "/jassi-photography/static/js/main.d4662276.js.map",
     "453.d798f18e.chunk.js.map": "/jassi-photography/static/js/453.d798f18e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d68a77cf.css",
-    "static/js/main.f715b8fa.js"
+    "static/js/main.d4662276.js"
   ]
 }
