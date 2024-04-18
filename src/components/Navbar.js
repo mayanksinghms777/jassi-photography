@@ -5,9 +5,9 @@ function Navbar() {
 
     const handleCollapse = () => {
         console.log("handleCollapse");
-        
+        var nav = document.getElementById("navbarBtn");
         var btn = document.getElementById("myNav");
-        
+        nav.classList.remove("show");
         btn.classList.add("collapsed");
      };
 
@@ -60,9 +60,9 @@ function Navbar() {
                 <div className="overlay-content" id="collapseExample">
                 <ul className='overlay-menu d-flex justify-content-start flex-column'>
                    <li><NavLink onClick={handleCollapse}  exact={true} to="/jassi-photography">Home</NavLink></li>
-                    <li><NavLink onClick={handleCollapse} to="/about">About</NavLink></li>
+                    <li><NavLink to="/about">About</NavLink></li>
                     <li>
-                        <NavLink onClick={handleCollapse} className='d-inline-block' to="/portfolio">Portfolio</NavLink>
+                        <NavLink  className='d-inline-block' to="/portfolio">Portfolio</NavLink>
                         <NavLink onClick={close_subnav} className='d-inline-block' to="" ><svg id='nav_svg' class="svg-inline--fa fa-angle-up fa-w-8 icon-collapse-toggle" aria-hidden="true" focusable="false" data-prefix="fal" data-icon="angle-up" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512" data-fa-i2svg=""><path fill="currentColor" d="M136.5 185.1l116 117.8c4.7 4.7 4.7 12.3 0 17l-7.1 7.1c-4.7 4.7-12.3 4.7-17 0L128 224.7 27.6 326.9c-4.7 4.7-12.3 4.7-17 0l-7.1-7.1c-4.7-4.7-4.7-12.3 0-17l116-117.8c4.7-4.6 12.3-4.6 17 .1z"></path></svg></NavLink>
                         <ul className='p-0 subnav' id='subnav'>
                             <li><NavLink onClick={handleCollapse} to="/portfolio_classic">Classic</NavLink></li>

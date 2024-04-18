@@ -5,9 +5,9 @@ function Navbar1() {
 
     const handleCollapse = () => {
         console.log("handleCollapse");
-        
+        var nav = document.getElementById("navbarBtn");
         var btn = document.getElementById("myNav");
-        
+        nav.classList.remove("show");
         btn.classList.add("collapsed");
      };
 
