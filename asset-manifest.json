@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/jassi-photography/static/css/main.2d68982e.css",
-    "main.js": "/jassi-photography/static/js/main.99df7ba1.js",
-    "static/js/787.87f9dd46.chunk.js": "/jassi-photography/static/js/787.87f9dd46.chunk.js",
+    "main.css": "/jassi-photography/static/css/main.6461fcc1.css",
+    "main.js": "/jassi-photography/static/js/main.8e1e8237.js",
+    "static/js/453.d798f18e.chunk.js": "/jassi-photography/static/js/453.d798f18e.chunk.js",
     "static/media/Screenshot 2022-01-07 at 5.11.33 PM.png": "/jassi-photography/static/media/Screenshot 2022-01-07 at 5.11.33 PM.86f1941b112c6444f0f3.png",
     "static/media/DSC09676-e2d4fbd8.jpeg": "/jassi-photography/static/media/DSC09676-e2d4fbd8.4f484b3a06d9676012a1.jpeg",
     "static/media/DSC03396-ba6f5a46.jpeg": "/jassi-photography/static/media/DSC03396-ba6f5a46.6e836a3523c3f64a49fa.jpeg",
@@ -18,12 +18,12 @@
     "static/media/008203-937a3570.jpeg": "/jassi-photography/static/media/008203-937a3570.9afbc2d21be30ea9e5a3.jpeg",
     "static/media/0008548-2759c646.jpeg": "/jassi-photography/static/media/0008548-2759c646.7f3e4dac3a307f54dd13.jpeg",
     "index.html": "/jassi-photography/index.html",
-    "main.2d68982e.css.map": "/jassi-photography/static/css/main.2d68982e.css.map",
-    "main.99df7ba1.js.map": "/jassi-photography/static/js/main.99df7ba1.js.map",
-    "787.87f9dd46.chunk.js.map": "/jassi-photography/static/js/787.87f9dd46.chunk.js.map"
+    "main.6461fcc1.css.map": "/jassi-photography/static/css/main.6461fcc1.css.map",
+    "main.8e1e8237.js.map": "/jassi-photography/static/js/main.8e1e8237.js.map",
+    "453.d798f18e.chunk.js.map": "/jassi-photography/static/js/453.d798f18e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2d68982e.css",
-    "static/js/main.99df7ba1.js"
+    "static/css/main.6461fcc1.css",
+    "static/js/main.8e1e8237.js"
   ]
 }
