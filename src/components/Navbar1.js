@@ -5,9 +5,9 @@ function Navbar1() {
 
     const handleCollapse = () => {
         console.log("handleCollapse");
-        var nav = document.getElementById("navbarBtn");
+        
         var btn = document.getElementById("myNav");
-        nav.classList.remove("show");
+        
         btn.classList.add("collapsed");
      };
 
@@ -30,7 +30,7 @@ function Navbar1() {
             <div id="navColor">
             <div className="nav-main black padding-container pt-0 pb-0">
                 <ul className="nav1">
-                    <li><NavLink exact to="/jassi-photography" >Home</NavLink></li>
+                    <li><NavLink exact={true} to="/jassi-photography" >Home</NavLink></li>
                     <li><NavLink to="/about" >About</NavLink></li>
                     <li className='nav-portfoliolink'><NavLink to="/portfolio" >Portfolio</NavLink>
                         <div className='nav-dropdown'>
@@ -59,7 +59,7 @@ function Navbar1() {
                 <NavLink to="" className="closebtn" onClick={closeNav}>&times;</NavLink>
                 <div className="overlay-content" id="collapseExample">
                 <ul className='overlay-menu d-flex justify-content-start flex-column'>
-                   <li><NavLink onClick={handleCollapse}  exact to="/jassi-photography">Home</NavLink></li>
+                   <li><NavLink onClick={handleCollapse}  exact={true} to="/jassi-photography">Home</NavLink></li>
                     <li><NavLink onClick={handleCollapse} to="/about">About</NavLink></li>
                     <li>
                         <NavLink onClick={handleCollapse} className='d-inline-block' to="/portfolio">Portfolio</NavLink>
