@@ -17,9 +17,8 @@ import Footer from './components/Footer';
 function App() {
   return (
     <>
-   
-     <Routes>
-            <Route path="/" element={<Home />} />
+     <Routes basename="/jassi-photography">
+            <Route path="/jassi-photography" element={<Home />} />
             <Route path="/about" element={<About />} />
             <Route path="/portfolio" element={<Portfolio />} />
             <Route path="/portfolio_wedding" element={<Portfolio_wedding />} />

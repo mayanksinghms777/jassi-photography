@@ -30,7 +30,7 @@ function Navbar() {
             <div id="navColor">
             <div className="nav-main white padding-container pt-0 pb-0">
                 <ul className="nav1">
-                    <li><NavLink exact to="/" >Home</NavLink></li>
+                    <li><NavLink exact to="/jassi-photography" >Home</NavLink></li>
                     <li><NavLink to="/about" >About</NavLink></li>
                     <li className='nav-portfoliolink'><NavLink to="/portfolio" >Portfolio</NavLink>
                         <div className='nav-dropdown'>
@@ -43,7 +43,7 @@ function Navbar() {
                         </div>
                     </li>
                 </ul>
-                <NavLink className="nav2" to="/" >JASSI PHOTOGRAPHY</NavLink>
+                <NavLink className="nav2" to="/jassi-photography" >JASSI PHOTOGRAPHY</NavLink>
                 <ul className="nav3">
                     <li><NavLink to="/contact" >Contact</NavLink></li>
                     <li><NavLink to="/blog" >Blog</NavLink></li>
@@ -59,7 +59,7 @@ function Navbar() {
                 <NavLink to="" className="closebtn" onClick={closeNav}>&times;</NavLink>
                 <div className="overlay-content" id="collapseExample">
                 <ul className='overlay-menu d-flex justify-content-start flex-column'>
-                   <li><NavLink onClick={handleCollapse}  exact to="/">Home</NavLink></li>
+                   <li><NavLink onClick={handleCollapse}  exact to="/jassi-photography">Home</NavLink></li>
                     <li><NavLink onClick={handleCollapse} to="/about">About</NavLink></li>
                     <li>
                         <NavLink onClick={handleCollapse} className='d-inline-block' to="/portfolio">Portfolio</NavLink>
