@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/jassi-photography/static/css/main.2d68982e.css",
+    "main.js": "/jassi-photography/static/js/main.99df7ba1.js",
+    "static/js/787.87f9dd46.chunk.js": "/jassi-photography/static/js/787.87f9dd46.chunk.js",
+    "static/media/Screenshot 2022-01-07 at 5.11.33 PM.png": "/jassi-photography/static/media/Screenshot 2022-01-07 at 5.11.33 PM.86f1941b112c6444f0f3.png",
+    "static/media/DSC09676-e2d4fbd8.jpeg": "/jassi-photography/static/media/DSC09676-e2d4fbd8.4f484b3a06d9676012a1.jpeg",
+    "static/media/DSC03396-ba6f5a46.jpeg": "/jassi-photography/static/media/DSC03396-ba6f5a46.6e836a3523c3f64a49fa.jpeg",
+    "static/media/DSC02157_1-2-1158dcd7.jpeg": "/jassi-photography/static/media/DSC02157_1-2-1158dcd7.449caef7f8c106455591.jpeg",
+    "static/media/DSC03323-2-5-b639a618.jpeg": "/jassi-photography/static/media/DSC03323-2-5-b639a618.37f377ec9f38dfef1226.jpeg",
+    "static/media/KE-1154-d4dbf107.jpeg": "/jassi-photography/static/media/KE-1154-d4dbf107.258fdff19e0bb2d8b1a5.jpeg",
+    "static/media/KE-1016-df2e87d0.jpeg": "/jassi-photography/static/media/KE-1016-df2e87d0.a8dae35003a518f0b166.jpeg",
+    "static/media/DSC08733-2a415259.jpeg": "/jassi-photography/static/media/DSC08733-2a415259.c997b25903c45cd0aadc.jpeg",
+    "static/media/DSC07317-ffcd163a.jpeg": "/jassi-photography/static/media/DSC07317-ffcd163a.89b1cc3dc79ba44e6034.jpeg",
+    "static/media/DSC08611-3-2681d8e0.jpeg": "/jassi-photography/static/media/DSC08611-3-2681d8e0.7bc7522379df006ee1ac.jpeg",
+    "static/media/0002420-2-97348576.jpeg": "/jassi-photography/static/media/0002420-2-97348576.cbcb812cc26fd20a1691.jpeg",
+    "static/media/DSC03323-2-de6c580c.jpeg": "/jassi-photography/static/media/DSC03323-2-de6c580c.1defa86cffbeb37b7c03.jpeg",
+    "static/media/008203-937a3570.jpeg": "/jassi-photography/static/media/008203-937a3570.9afbc2d21be30ea9e5a3.jpeg",
+    "static/media/0008548-2759c646.jpeg": "/jassi-photography/static/media/0008548-2759c646.7f3e4dac3a307f54dd13.jpeg",
+    "index.html": "/jassi-photography/index.html",
+    "main.2d68982e.css.map": "/jassi-photography/static/css/main.2d68982e.css.map",
+    "main.99df7ba1.js.map": "/jassi-photography/static/js/main.99df7ba1.js.map",
+    "787.87f9dd46.chunk.js.map": "/jassi-photography/static/js/787.87f9dd46.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2d68982e.css",
+    "static/js/main.99df7ba1.js"
+  ]
+}
